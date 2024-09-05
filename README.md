@@ -53,4 +53,28 @@ for (int i = 0; i < 2000000; i++) {
 }
 connection.commit();
 ```
+### 4.4. Mensuração de Tempo de Execução
+O tempo de execução do processo de inserção é monitorado para fins de otimização e análise de performance. A captura do tempo de início e término é feita utilizando `System.currentTimeMillis()`.
+
+## 5. Como Executar o Projeto
+
+### 5.1. Pré-requisitos
+- Java 11 ou superior instalado.
+- PostgreSQL instalado e configurado.
+- Dependências JDBC no projeto (adicionadas via Maven ou manualmente).
+
+### 5.2. Passos para Executar
+1. Clone o repositório do projeto:
+
+    ```bash
+    git clone https://github.com/seuprojeto.git
+    ```
+
+2. Compile e execute o projeto a partir do `Main.java`:
+
+    ```bash
+    javac Main.java
+    java Main
+    ```
+
 
